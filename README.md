@@ -28,7 +28,7 @@ The booking system should contain the following key features:
 ## 🟢 Project Breakdown
 After thoroughly reviewing the Project overview and understanding what needs to be done, I broke down the project into the following stages highlighted below
 - [Database Setup and Creation](#Database-Setup-and-Creation)
-- [Table Creation, Altering Table Constraints and Inserting Data](#Table-Creation-Altering-Table-Constraints-and-Inserting-Data)
+- [Table Creation Altering Table Constraints and Inserting Data](#Table-Creation-Altering-Table-Constraints-and-Inserting-Data)
 - [Creating Views and Setting up EER Diagram](#Creating-Views-and-Setting-up-EER-Diagram)
 - [Automate Database Activity](#Automate-Database-Activity)
 - [Query Optimization](#Query-Optimization)
@@ -64,7 +64,7 @@ CREATE DATABASE Sports_DB
 DEFAULT CHARACTER SET utf8mb4;
 ```
 
-## 🟢 Table Creation, Altering Table Constraints and Inserting Data
+## 🟢 Table Creation Altering Table Constraints and Inserting Data
 After coming up with a blueprint for the database, the next step was to create the tables, add table constraints and establish a relationship between the tables. The tables to be included in the database are as follows
 
 - `Membership` 
