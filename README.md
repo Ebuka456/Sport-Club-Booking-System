@@ -10,7 +10,7 @@
 A properly designed database is the foundation for efficient and effective data management. It is a critical asset for any organization that relies on data to drive its operations. 
 This project is going into details how I designed a **Booking System Database** for a Sports complex and how I automate activities in the database.
 
-## 🟢 Project Overview
+## Project Overview
 ---
 
 The aim of this project is to develop a comprehensive database system to manage the booking process of a sports complex, including facilities such as tennis courts, badminton courts, multi-purpose fields, and an archery range. Additionally, automate booking processes, including payments, updating member records, and providing a seamless experience for registered users.
@@ -25,7 +25,7 @@ The booking system should contain the following key features:
 - Users can cancel their bookings. Cancellations are allowed up to the day prior to the booked date.
 
 
-## 🟢 Project Breakdown
+## Project Breakdown
 After thoroughly reviewing the Project overview and understanding what needs to be done, I broke down the project into the following stages highlighted below
 - [Database Setup and Creation](#Database-Setup-and-Creation)
 - [Table Creation Altering Table Constraints and Inserting Data](#Table-Creation-Altering-Table-Constraints-and-Inserting-Data)
@@ -39,7 +39,7 @@ After thoroughly reviewing the Project overview and understanding what needs to 
 **NB**: This booking system will be built on MySQL Database
 
 
-## 🟢 Database Setup and Creation
+## Database Setup and Creation
 
 <p align="center">
 <img src="https://github.com/Ebuka456/Sport-Club-Booking-System/blob/main/Building%20a%20Sports%20Booking%20and%20Automation%20System/mysql-database-setup.png" alt="Alt text" style= "width: 900px; height: 450px"/>
@@ -64,7 +64,7 @@ CREATE DATABASE Sports_DB
 DEFAULT CHARACTER SET utf8mb4;
 ```
 
-## 🟢 Table Creation Altering Table Constraints and Inserting Data
+## Table Creation Altering Table Constraints and Inserting Data
 After coming up with a blueprint for the database, the next step was to create the tables, add table constraints and establish a relationship between the tables. The tables to be included in the database are as follows
 
 - `Membership` 
@@ -123,7 +123,7 @@ Following the creation of the tables, a series of crucial steps were meticulousl
 The scripts to carry out these steps can be found [here](https://github.com/Ebuka456/Sport-Club-Booking-System/blob/main/Building%20a%20Sports%20Booking%20and%20Automation%20System/Sport%20Complex%20Database%20SQL%20Scripts.sql)
 
 
-## 🟢 Creating View & ER Diagram
+## Creating View & ER Diagram
 
 The next step taken was to create an Entity Relationship Diagram (ERD) as a strategic initiative to visually articulate the database's architecture. This diagram serves to delineate the composition of the database, encompassing its entities (tables), inter-entity relationships, and the distinctive attributes affiliated with each entity. 
 
@@ -144,7 +144,7 @@ Specifically, I created views that shows all the booking details of each booking
 You can find the script [Here](https://github.com/Ebuka456/Sport-Club-Booking-System/blob/main/Building%20a%20Sports%20Booking%20and%20Automation%20System/Sport%20Complex%20Database%20SQL%20Scripts.sql).
 
 
-## 🟢 Automating Database Activity
+## Automating Database Activity
 
 The goal of automating database activity is to streamline, optimize, and schedule routine or repetitive tasks, improving efficiency, accuracy, and overall management of the database environment.
 
@@ -161,7 +161,7 @@ To begin this, I initially studied all repetitive booking and payment activities
 
 These are most of the automations I implemented on the database and the scripts used to create the automation can be found [here](https://github.com/Ebuka456/Sport-Club-Booking-System/blob/main/Building%20a%20Sports%20Booking%20and%20Automation%20System/Sport%20Complex%20Database%20SQL%20Scripts.sql).
 
-## 🟢 Query Optimization
+## Query Optimization
 
 To improve query performance, Indexes will be set up so as to improve the performance of database when querying the database. 
 The Query Optimization techniques used for the database was Indexes and below are the scripts used to create the indexes on selected columns
@@ -183,7 +183,7 @@ WHERE TABLE_SCHEMA = 'sports_db';
 
 ```
 
-## 🟢 User Management & Privileges
+## User Management & Privileges
 
 User management is important because they play a vital role in ensuring the security, integrity, and efficiency of a database system. They enforce access control, limiting database interactions to authorized individuals and preventing unauthorized access.
 
@@ -193,14 +193,14 @@ For this database, I would be creating 3 users, the details are below
 - **Member**: Members should be able to check and update their details on the membership table. Members should be able to view available  bookings, should be able to make bookings and can view their own weekly bookings.
 
 
-## 🟢 Backup and Recovery
+## Backup and Recovery
 
 We use Backups to make sure our database is protected and recoverable in the event of loss. There are different types of backup but the backup I performed is a **Logical backup**.
 
 In a logical backup, you are able to store the SQL statements needed to recreate the database and populate it. In MySQL, this is done using mysqldump. Another way of backing up your database is by Database Replication but this project does not cover data replication. The backed up file is also present in my GitHub Repository. So you can recreate the database on your local device.
 
 
-## 🟢 Database Security
+## Database Security
 
 Securing a database for a sports complex is essential to protect sensitive information, ensure data integrity, and maintain the overall reliability of the system. 
 
