@@ -27,7 +27,7 @@ The booking system should contain the following key features:
 
 ## Project Breakdown
 After thoroughly reviewing the Project overview and understanding what needs to be done, I broke down the project into the following stages highlighted below
-- [Database Setup and Creation](Database-Setup-and-Creation)
+- [Database Setup and Creation](#Database-Setup-and-Creation)
 - Table Creation, Altering Table Constraints and Inserting Data
 - Creating Views and Setting up EER Diagram
 - Automate Database Activity
