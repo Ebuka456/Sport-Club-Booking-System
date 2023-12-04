@@ -144,7 +144,7 @@ Specifically, I created views that shows all the booking details of each booking
 You can find the script [Here](https://github.com/Ebuka456/Sport-Club-Booking-System/blob/main/Building%20a%20Sports%20Booking%20and%20Automation%20System/Sport%20Complex%20Database%20SQL%20Scripts.sql).
 
 
-## Automating Database Activity
+## Automate Database Activity
 
 The goal of automating database activity is to streamline, optimize, and schedule routine or repetitive tasks, improving efficiency, accuracy, and overall management of the database environment.
 
@@ -183,7 +183,7 @@ WHERE TABLE_SCHEMA = 'sports_db';
 
 ```
 
-## User Management & Privileges
+## User Management and Privileges
 
 User management is important because they play a vital role in ensuring the security, integrity, and efficiency of a database system. They enforce access control, limiting database interactions to authorized individuals and preventing unauthorized access.
 
@@ -193,7 +193,7 @@ For this database, I would be creating 3 users, the details are below
 - **Member**: Members should be able to check and update their details on the membership table. Members should be able to view available  bookings, should be able to make bookings and can view their own weekly bookings.
 
 
-## Backup and Recovery
+## Backup and Recovery
 
 We use Backups to make sure our database is protected and recoverable in the event of loss. There are different types of backup but the backup I performed is a **Logical backup**.
 
