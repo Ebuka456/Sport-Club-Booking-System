@@ -133,7 +133,7 @@ The ER diagram, dedicated to the booking system, is presented below for referenc
 <img src="https://github.com/Ebuka456/Sport-Club-Booking-System/blob/main/Building%20a%20Sports%20Booking%20and%20Automation%20System/EER%20Diagram%20Image.png" alt="Alt text" style= "width: 900px; height: 450px"/>
 </p>
 
-To understand the diagram even more, Read my article where I explained my working process. Check it out [Here]()
+To understand the diagram even more, Read my article where I explained my working process. Check it out [Here](https://medium.com/@okonkwoebuka456/database-design-ii-a-sports-club-booking-and-automation-system-a8a82d8efda6)
 
 ### Creating Views
 
@@ -215,5 +215,5 @@ Here are some security best practices the team can adopt
 - Educate database administrators, developers, and other personnel about security best practices. Regular training sessions help create a security-aware culture and reduce the likelihood of human errors. Database Security is everyone's priority.
 
 
-Link to Medium Article and Scripts
+Link to [Medium Article](https://medium.com/@okonkwoebuka456/database-design-ii-a-sports-club-booking-and-automation-system-a8a82d8efda6) and [Scripts](https://github.com/Ebuka456/Sport-Club-Booking-System/blob/main/Building%20a%20Sports%20Booking%20and%20Automation%20System/Sport%20Complex%20Database%20SQL%20Scripts.sql)
 
